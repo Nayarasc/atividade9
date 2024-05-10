@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --main-background: #134e4a;
+    --text-color: #dbeafe;
+    --nav-background: #6366f1;
+}
+
+body {
+    background: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--nav-background);
 }
